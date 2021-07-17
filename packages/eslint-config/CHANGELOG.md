@@ -7,10 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @chronark/eslint-config
 
-
-
-
-
 ## [1.0.4](https://github.com/chronark/shared/compare/@chronark/eslint-config@1.0.3...@chronark/eslint-config@1.0.4) (2021-07-17)
 
 **Note:** Version bump only for package @chronark/eslint-config

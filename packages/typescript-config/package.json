@@ -5,13 +5,10 @@
   "author": "Andreas Thomas <dev@chronark.com>",
   "homepage": "https://github.com/chronark/shared#readme",
   "license": "MIT",
-  "main": "./lib/tsconfig.json",
+  "main": "tsconfig.json",
   "files": [
-    "./lib/tsconfig.json"
+    "tsconfig.json"
   ],
-  "directories": {
-    "lib": "lib"
-  },
   "publishConfig": {
     "access": "public"
   },

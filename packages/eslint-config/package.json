@@ -5,12 +5,9 @@
   "author": "Andreas Thomas <dev@chronark.com>",
   "homepage": "https://github.com/chronark/shared#readme",
   "license": "MIT",
-  "main": "lib/.eslintrc.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": ".eslintrc.js",
   "files": [
-    "lib"
+    ".eslintrc.js"
   ],
   "publishConfig": {
     "access": "public"
