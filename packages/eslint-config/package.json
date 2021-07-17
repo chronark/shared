@@ -1,0 +1,37 @@
+{
+  "name": "@chronark/eslint-config",
+  "version": "1.0.0",
+  "description": "My eslint rules",
+  "author": "Andreas Thomas <dev@chronark.com>",
+  "homepage": "https://github.com/chronark/shared#readme",
+  "license": "MIT",
+  "main": "lib/.eslintrc.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chronark/shared.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chronark/shared/issues"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.23.0",
+    "typescript": "^4.2.3"
+  }
+}

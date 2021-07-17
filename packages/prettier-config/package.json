@@ -1,0 +1,22 @@
+{
+  "name": "@chronark/prettier-config",
+  "version": "1.0.0",
+  "description": "Base prettier config",
+  "author": "Andreas Thomas <dev@chronark.com>",
+  "homepage": "https://github.com/chronark/shared#readme",
+  "license": "MIT",
+  "main": "lib/.prettierrc.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chronark/shared.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chronark/shared/issues"
+  }
+}
