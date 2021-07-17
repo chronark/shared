@@ -1,0 +1,22 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /home/chronark/github/chronark/shared
+3 info versioning independent
+4 error JSONError: Unexpected token "}" (0x7D) in JSON at position 297 while parsing near "...    \"lib\": \"lib\",\n  },\n  \"files\": [\n    ..." in packages/tsconfig/package.json
+4 error
+4 error [0m [90m  9 |[39m   [32m"directories"[39m[33m:[39m {[0m
+4 error [0m [90m 10 |[39m     [32m"lib"[39m[33m:[39m [32m"lib"[39m[33m,[39m[0m
+4 error [0m[31m[1m>[22m[39m[90m 11 |[39m   }[33m,[39m[0m
+4 error [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+4 error [0m [90m 12 |[39m   [32m"files"[39m[33m:[39m [[0m
+4 error [0m [90m 13 |[39m     [32m"lib"[39m[0m
+4 error [0m [90m 14 |[39m   ][33m,[39m[0m
+4 error
+4 error     at parseJson (/home/chronark/github/chronark/shared/node_modules/parse-json/index.js:29:21)
+4 error     at parse (/home/chronark/github/chronark/shared/node_modules/load-json-file/index.js:15:9)
+4 error     at module.exports (/home/chronark/github/chronark/shared/node_modules/load-json-file/index.js:18:47)
