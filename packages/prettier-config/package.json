@@ -1,6 +1,6 @@
 {
   "name": "@chronark/prettier-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Base prettier config",
   "author": "Andreas Thomas <dev@chronark.com>",
   "homepage": "https://github.com/chronark/shared#readme",

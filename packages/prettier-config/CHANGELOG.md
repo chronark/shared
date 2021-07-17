@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.7](https://github.com/chronark/shared/compare/@chronark/prettier-config@1.0.6...@chronark/prettier-config@1.0.7) (2021-07-17)
+
+
+### Bug Fixes
+
+* filepath ([73f9bfa](https://github.com/chronark/shared/commit/73f9bfac7eedf5a66ada2a1d34358b297000a529))
+
+
+
+
+
 ## [1.0.6](https://github.com/chronark/shared/compare/@chronark/prettier-config@1.0.5...@chronark/prettier-config@1.0.6) (2021-07-17)
 
 
