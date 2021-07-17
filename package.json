@@ -2,13 +2,6 @@
   "name": "@chronark/shared",
   "private": true,
   "npmClient": "yarn",
-  "command": {
-    "publish": {
-      "conventionalCommits": true,
-      "message": "chore(release): publish",
-      "allowBranch": "main"
-    }
-  },
   "scripts": {
     "fmt": "prettier --write ."
   },
