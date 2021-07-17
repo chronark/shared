@@ -7,25 +7,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @chronark/prettier-config
 
-
-
-
-
 ## [1.0.3](https://github.com/chronark/shared/compare/@chronark/prettier-config@1.0.1...@chronark/prettier-config@1.0.3) (2021-07-17)
 
 **Note:** Version bump only for package @chronark/prettier-config
 
-
-
-
-
 ## [1.0.2](https://github.com/chronark/shared/compare/@chronark/prettier-config@1.0.1...@chronark/prettier-config@1.0.2) (2021-07-17)
 
 **Note:** Version bump only for package @chronark/prettier-config
-
-
-
-
 
 ## 1.0.1 (2021-07-17)
 

@@ -9,6 +9,9 @@
   "files": [
     "./lib/tsconfig.json"
   ],
+  "directories": {
+    "lib": "lib"
+  },
   "publishConfig": {
     "access": "public"
   },
