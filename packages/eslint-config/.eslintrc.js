@@ -39,7 +39,12 @@ module.exports = {
 
     "jsx-a11y/anchor-is-valid": "off",
     "object-curly-newline": "off",
-    "max-len": [2, { code: 100, ignoreUrls: true }],
+    "max-len": [2, { 
+      code: 100, 
+      ignoreUrls: true, 
+      ignoreStrings: true, 
+      ignoreTemplateLiterals: true
+    }],
 
     /*
      * We are using typescript and don't need prop-types
