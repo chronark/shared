@@ -5,7 +5,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 0.1.0 (2021-07-23)
 
-
 ### Features
 
-* add semaphore package ([ae67e61](https://github.com/chronark/shared/commit/ae67e616e69cfe45467f71a0329f8ae020d53b21))
+- add semaphore package ([ae67e61](https://github.com/chronark/shared/commit/ae67e616e69cfe45467f71a0329f8ae020d53b21))
