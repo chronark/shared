@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/chronark/shared/compare/@chronark/eslint-config@1.1.1...@chronark/eslint-config@1.1.2) (2021-07-23)
+
+
+### Bug Fixes
+
+* config ([1f49533](https://github.com/chronark/shared/commit/1f49533208af2138500d4e485520904d6432169b))
+
+
+
+
+
 ## [1.1.1](https://github.com/chronark/shared/compare/@chronark/eslint-config@1.1.0...@chronark/eslint-config@1.1.1) (2021-07-23)
 
 **Note:** Version bump only for package @chronark/eslint-config

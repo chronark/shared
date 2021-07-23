@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.8](https://github.com/chronark/shared/compare/@chronark/typescript-config@1.0.7...@chronark/typescript-config@1.0.8) (2021-07-23)
+
+
+### Bug Fixes
+
+* config ([1f49533](https://github.com/chronark/shared/commit/1f49533208af2138500d4e485520904d6432169b))
+
+
+
+
+
 ## [1.0.7](https://github.com/chronark/shared/compare/@chronark/typescript-config@1.0.6...@chronark/typescript-config@1.0.7) (2021-07-17)
 
 ### Bug Fixes

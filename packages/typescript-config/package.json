@@ -1,6 +1,6 @@
 {
   "name": "@chronark/typescript-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Basic tsconfig with strict rules",
   "author": "Andreas Thomas <dev@chronark.com>",
   "homepage": "https://github.com/chronark/shared#readme",
