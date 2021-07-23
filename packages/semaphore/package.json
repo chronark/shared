@@ -1,5 +1,5 @@
 {
-  "name": "semaphore",
+  "name": "@chronark/semaphore",
   "version": "0.0.1",
   "description": "A simple nodejs semaphore with zero dependencies",
   "keywords": [
