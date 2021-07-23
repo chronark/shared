@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/chronark/shared/compare/@chronark/semaphore@0.1.1...@chronark/semaphore@0.1.2) (2021-07-23)
+
+
+### Bug Fixes
+
+* eslint issues ([88ae824](https://github.com/chronark/shared/commit/88ae824dc368f0bc4eee30f0ce7395d7de25cf76))
+
+
+
+
+
 ## [0.1.1](https://github.com/chronark/shared/compare/@chronark/semaphore@0.1.0...@chronark/semaphore@0.1.1) (2021-07-23)
 
 ### Bug Fixes

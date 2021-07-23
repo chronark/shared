@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.9](https://github.com/chronark/shared/compare/@chronark/typescript-config@1.0.8...@chronark/typescript-config@1.0.9) (2021-07-23)
+
+
+### Bug Fixes
+
+* eslint issues ([88ae824](https://github.com/chronark/shared/commit/88ae824dc368f0bc4eee30f0ce7395d7de25cf76))
+
+
+
+
+
 ## [1.0.8](https://github.com/chronark/shared/compare/@chronark/typescript-config@1.0.7...@chronark/typescript-config@1.0.8) (2021-07-23)
 
 ### Bug Fixes
