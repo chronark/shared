@@ -1,0 +1,4 @@
+{
+  "extends": "@chronark/typescript-config",
+  "include": ["**/*.ts", ".eslintrc.js"]
+}

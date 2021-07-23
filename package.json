@@ -3,7 +3,8 @@
   "private": true,
   "npmClient": "yarn",
   "scripts": {
-    "fmt": "prettier --write ."
+    "fmt": "lerna run fmt && prettier --write --loglevel=warn --ignore-path=.gitignore .",
+    "test": "lerna run test"
   },
   "devDependencies": {
     "lerna": "^4.0.0",

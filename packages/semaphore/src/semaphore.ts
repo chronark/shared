@@ -1,5 +1,5 @@
 export class Semaphore {
-  private concurrency: number
+  private capacity: number
 
   private queue: {
     resolve: (value: void | PromiseLike<void>) => void
@@ -12,10 +12,13 @@ export class Semaphore {
   /**
    * Create a new semaphore
    *
-   * @param concurrency - The number of active functions that can run simultaneously.
+   * @param capacity - The number of active functions that can run simultaneously.
    */
-  constructor(concurrency: number) {
-    this.concurrency = concurrency
+  constructor(capacity = 1) {
+    if (capacity < 1) {
+      throw new Error("The capacity must not be lower than 1")
+    }
+    this.capacity = capacity
     this.queue = []
     this.active = 0
   }
@@ -43,22 +46,38 @@ export class Semaphore {
   }
 
   private async try(): Promise<void> {
-    if (this.active === this.concurrency || this.queue.length === 0) {
-      return
+    while (this.active >= this.capacity) {
+      // eslint-disable-next-line no-await-in-loop
+      await new Promise((resolve) => setTimeout(resolve, 100))
     }
     const next = this.queue.shift()
-    if (next) {
-      const { fn, resolve, reject } = next
-      this.active += 1
-      try {
-        await fn()
-        resolve()
-      } catch (err) {
-        reject(err)
-      } finally {
-        this.active -= 1
-        this.try()
-      }
+    if (!next) {
+      return
     }
+    const { fn, resolve, reject } = next
+
+    this.active += 1
+    try {
+      await fn()
+      resolve()
+    } catch (err) {
+      reject(err)
+    } finally {
+      this.active -= 1
+      this.try()
+    }
+  }
+
+  /**
+   * Resolves only after all tasks have been resolved
+   * @example
+   * ```
+   * const semaphore = new Semaphore(2)
+   * // ... add tasks
+   * await semaphore.done()
+   */
+  public async done(): Promise<boolean> {
+    await this.try()
+    return this.queue.length === 0
   }
 }

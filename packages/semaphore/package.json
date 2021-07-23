@@ -24,9 +24,23 @@
     "url": "git+https://github.com/chronark/shared.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "jest",
+    "fmt": "yarn lint && yarn format",
+    "format": "prettier --write --loglevel=warn .",
+    "lint": "eslint --ext .js,.ts,.tsx --fix .",
+    "tsc": "tsc"
   },
   "bugs": {
     "url": "https://github.com/chronark/shared/issues"
+  },
+  "devDependencies": {
+    "@chronark/eslint-config": "^1.1.2",
+    "@chronark/typescript-config": "^1.0.8",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
   }
 }
