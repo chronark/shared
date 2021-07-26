@@ -317,10 +317,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@chronark/eslint-config@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@chronark/eslint-config/-/eslint-config-1.1.2.tgz#33491004638ccfd13a621bcf18bead8505f463c5"
-  integrity sha512-LN4ur0NGaOtS7BBBjdm7D6MBTD55D08k7hDtkQrXRtNNFRrd3/flRRYqFrr8TwsZHiCpKW6r52l/tk1vuoaU0Q==
+"@chronark/eslint-config@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@chronark/eslint-config/-/eslint-config-1.1.3.tgz#c7c229efd99ec17c0660fa4cfd48e57d3b1d5fb0"
+  integrity sha512-fao0/hZvaE/S2kn/L0ED+8du3Wh+PHiX/EXqAAm/wrRGrzmH8S0V6K2d4zY8f4FOmcB/atpS9LXG8dn1JlknJQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.20.0"
     eslint-config-airbnb "^18.2.1"
@@ -332,10 +332,10 @@
     eslint-plugin-react "^7.23.1"
     eslint-plugin-react-hooks "^4.2.0"
 
-"@chronark/typescript-config@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@chronark/typescript-config/-/typescript-config-1.0.8.tgz#6ecc85568d0894ff83186066ad71f14d98d4a169"
-  integrity sha512-zeLT9jp2YhLTc7eSnPoTZz2TlkxKetkgk5YCYBJUq4mxBnlQkCfkAYCkaTMgw6T+tYOC9lE1JXlHb2Wr95/UPQ==
+"@chronark/typescript-config@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@chronark/typescript-config/-/typescript-config-1.0.9.tgz#825b7a8b4c462b17c8be7811cd272a6ec5e016c7"
+  integrity sha512-RnMStsdz2MZ7h8JV9YhwDnOBQTlDaQM6ZpFCmvHAGX8iRStzDNRLzpnSFHL7xxQ/yAvgi4+DdUyrsTab+QGPTw==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
@@ -666,9 +666,9 @@
   integrity sha512-YSBPTLTVm2e2OoQIDYx8HaeWJ5tTToLH67kXR7zYNGupXMEHa2++G8k+DczX2cFVgalypqtyZIcU19AFcmOpmg==
 
 "@types/node@*", "@types/node@^16.4.1":
-  version "16.4.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.4.1.tgz#9fad171a5b701613ee8a6f4ece3c88b1034b1b03"
-  integrity sha512-UW7cbLqf/Wu5XH2RKKY1cHwUNLicIDRLMraYKz+HHAerJ0ZffUEk+fMnd8qU2JaS6cAy0r8tsaf7yqHASf/Y0Q==
+  version "16.4.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.4.3.tgz#c01c1a215721f6dec71b47d88b4687463601ba48"
+  integrity sha512-GKM4FLMkWDc0sfx7tXqPWkM6NBow1kge0fgQh0bOnlqo4iT1kvTvMEKE0c1RtUGnbLlGRXiAA8SumE//90uKAg==
 
 "@types/prettier@^2.1.5":
   version "2.3.2"
