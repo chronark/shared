@@ -1,6 +1,6 @@
 {
   "name": "@chronark/semaphore",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A simple nodejs semaphore with zero dependencies",
   "keywords": [
     "semaphore",
@@ -34,7 +34,7 @@
     "url": "https://github.com/chronark/shared/issues"
   },
   "devDependencies": {
-    "@chronark/eslint-config": "^1.1.3",
+    "@chronark/eslint-config": "^1.1.4",
     "@chronark/typescript-config": "^1.0.9",
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.1",
