@@ -1,6 +1,6 @@
 {
   "name": "@chronark/eslint-config",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "My eslint rules",
   "author": "Andreas Thomas <dev@chronark.com>",
   "homepage": "https://github.com/chronark/shared#readme",
